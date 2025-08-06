@@ -8,7 +8,7 @@
 ## 🧾 Student Information  
 - **Name:** *Tanmay Singh*  
 - **Roll No.:** *24126051*  
-- **OpenLearn ID (OL ID):**OL-25-LP-097**  
+- **OpenLearn ID (OL ID):** OL-25-LP-097**  
 
 ---
 
