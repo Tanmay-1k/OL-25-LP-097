@@ -69,10 +69,11 @@ elif page == 'Predict Age':
     'mental_health_interview': mental_health_interview,
     'supervisor': supervisor
 }])
-    model = joblib.load('Models/03_Linear_REG.py')
+   
     
 # This will work with the pipeline
     if st.button('Predict'):
+        model = joblib.load('reg_model.pkl')
         predicted_age = model.predict(input_df)
         st.write(f"Predicted Age: {np.expm1(predicted_age)} years")
 
@@ -127,7 +128,7 @@ if page == "Treatment Seeking Employees":
 
     
     if st.button('Predict'):
-        clf = joblib.load('Models/clf_model.pkl')
+        clf = joblib.load('clf_model.pkl')
         predicted_treatment = clf.predict(input_df)
         if predicted_treatment == 1 :
             st.write('Yes')
@@ -174,6 +175,7 @@ if page == 'Clustering Report':
 
     
    
+
 
 
 
