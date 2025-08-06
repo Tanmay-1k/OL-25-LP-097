@@ -140,7 +140,7 @@ if page == 'Clustering Report':
     st.header("Clustering employees")
     st.subheader("Clustering employees based on their nature towards seeking mental health.")
     st.write('I have used an k means algorithm with dimensionality reduction to make these clusters. ')
-    st.image('EDA\Screenshot 2025-08-05 102332.png')
+    st.image(r'Images/Clusters.png')
     st.header('Cluster Interpretation')
     st.subheader('Cluster 0: Supervisor-Reliant Onsite Workers')
     st.markdown('''
@@ -175,6 +175,7 @@ if page == 'Clustering Report':
 
     
    
+
 
 
 
