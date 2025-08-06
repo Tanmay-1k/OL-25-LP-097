@@ -16,11 +16,4 @@ df['work_interfere']=df['work_interfere'].fillna('Unknown')
 map_employees={'6-25': 1,'More than 1000' :5 ,'26-100' :2,'100-500' :3,'1-5':0, '500-1000':4}  
 df['no_employees']=df['no_employees'].map(map_employees)
 
-
-
-
-
-
-print(df['mental_health_interview'].unique())
-
-#df.to_csv('cleaned_survey.csv', index=False)
+df.to_csv('cleaned_survey.csv', index=False)
