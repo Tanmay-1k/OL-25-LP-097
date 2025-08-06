@@ -15,7 +15,7 @@ if page == 'About':
     st.header('Skewness in Age !')
   
     st.write('The dataset is not in particular an ideal option for regression due to its skew score of 1.05.')
-    st.image(r'EDA\Screenshot 2025-07-29 191838.png')
+    st.image(r'Images/Skewness.png')
     
 
 
@@ -174,4 +174,5 @@ if page == 'Clustering Report':
 
     
    
+
 
