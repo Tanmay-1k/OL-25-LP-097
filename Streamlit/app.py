@@ -10,7 +10,7 @@ page = st.sidebar.selectbox("Go to", ["About","Predict Age","Treatment Seeking E
 if page == 'About':
     st.header('Dataset Overview')
     st.markdown('[Dataset Used : ] , https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey')
-    st.write('This dataset is from a 2014 survey that measures attitudes towards mental health and frequency of mental health disorders in the tech workplace. You are also encouraged to analyze data from the ongoing 2016 survey found here.')
+    st.write('This dataset is from a 2014 survey that measures attitudes towards mental health and frequency of mental health disorders in the tech workplace.')
     
     st.header('Skewness in Age !')
   
@@ -175,6 +175,7 @@ if page == 'Clustering Report':
 
     
    
+
 
 
 
