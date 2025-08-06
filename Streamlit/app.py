@@ -128,7 +128,7 @@ if page == "Treatment Seeking Employees":
 
     
     if st.button('Predict'):
-        clf = joblib.load('clf_model.pkl')
+        clf = joblib.load('Streamlit/clf_model.pkl')
         predicted_treatment = clf.predict(input_df)
         if predicted_treatment == 1 :
             st.write('Yes')
@@ -175,6 +175,7 @@ if page == 'Clustering Report':
 
     
    
+
 
 
 
