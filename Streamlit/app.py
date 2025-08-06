@@ -69,7 +69,7 @@ elif page == 'Predict Age':
     'mental_health_interview': mental_health_interview,
     'supervisor': supervisor
 }])
-    model = joblib.load('Models/03_Linear_REG.py/reg_model.pkl')
+    model = joblib.load('Models/03_Linear_REG.py')
     
 # This will work with the pipeline
     if st.button('Predict'):
@@ -174,6 +174,7 @@ if page == 'Clustering Report':
 
     
    
+
 
 
 
