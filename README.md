@@ -21,15 +21,15 @@ Clustering     :(Unsupervised Learning): Grouping employees into mental health-r
 🔗 Important Links
 EDA Notebook:https://github.com/Tanmay-1k/OL-25-LP-097/blob/main/Models/00_EDA.py)
 
-Classification Notebook: https://github.com/Tanmay-1k/OL-25-LP-097/blob/main/Models/04_RandomForest_CLF.py
-                         https://github.com/Tanmay-1k/OL-25-LP-097/blob/main/Models/05_LogisticReg_CLF.py
+Classification Notebook: [RandomForest]https://github.com/Tanmay-1k/OL-25-LP-097/blob/main/Models/04_RandomForest_CLF.py
+                         [LogisticRegression]https://github.com/Tanmay-1k/OL-25-LP-097/blob/main/Models/05_LogisticReg_CLF.py
                          
-Regression Notebook: https://github.com/Tanmay-1k/OL-25-LP-097/blob/main/Models/02_RandomForest_REG.py
-                     https://github.com/Tanmay-1k/OL-25-LP-097/blob/main/Models/03_Linear_REG.py
+Regression Notebook: [RandomForestRegression]https://github.com/Tanmay-1k/OL-25-LP-097/blob/main/Models/02_RandomForest_REG.py
+                     [LinearRegression]https://github.com/Tanmay-1k/OL-25-LP-097/blob/main/Models/03_Linear_REG.py
         
-Clustering Notebook: https://github.com/Tanmay-1k/OL-25-LP-097/blob/main/Models/06_KMeans_CLS.py
+Clustering Notebook: [kmeans]https://github.com/Tanmay-1k/OL-25-LP-097/blob/main/Models/06_KMeans_CLS.py
 
-Streamlit App: https://azn5dnrjxfpjd92mro3gxj.streamlit.app/
+Streamlit App: [streamlit app]https://azn5dnrjxfpjd92mro3gxj.streamlit.app/
 
 Technical Report: [Link to Medium Blog](https://medium.com/@tanmay2k5/mental-health-analysis-of-tech-company-employees-1485c900cf81)
 
